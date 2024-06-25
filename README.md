@@ -19,8 +19,9 @@ No. of columns = 11
 10. PM2.5
 11. PM10
 ## Installation
-To run the code in this repository, you need to have Python installed. You can install the required packages using:
+To run the code in this repository, you need to have Python (version 3.9.13 recommended) installed. You can install the required packages using:
 
 ```bash
 pip install -r requirements.txt
+## Exploratory Data Analysis
 
