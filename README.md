@@ -21,7 +21,13 @@ No. of columns = 11
 ## Installation
 To run the code in this repository, you need to have Python (version 3.9.13 recommended) installed. You can install the required packages using:
 
-```bash
+```bashfrequency 
 pip install -r requirements.txt
-## Exploratory Data Analysis
+```
+## Data Preprocessing
+1. Since the dataset contains separate values of YEAR, MO, DY and HR, we need to first create a new column 'Date' which contain the values of columns 'YEAR', 'MO', 'DY', 'HR' and convert it into datetime format.
+2. Set 'Date' column as index for the dataset.
+3. Remove the null values from the dataset.
+4. As our dataset contains hourly information of particulate matter data, we need to set frequency as 'H'.
+
 
