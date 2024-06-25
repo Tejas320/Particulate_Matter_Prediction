@@ -1,6 +1,6 @@
 # Particulate Matter Prediction Using Time Series
 Link of Google Colab notebook: https://colab.research.google.com/drive/1Frnd2tQHLUbRwPdKpxXAe4X7NrJ7G5et?usp=sharing   
-Deployed this app in Streamlit Cloud: https://pm-prediction.streamlit.app/
+Deployed the app in Streamlit Cloud: https://pm-prediction.streamlit.app/
 ## Problem Statement
 Air pollution, specifically particulate matter (PM), poses significant health risks and environmental challenges. Predicting future PM levels can aid in mitigating these risks by enabling proactive measures. This project aims to develop a robust time series model to accurately forecast PM concentrations (PM2.5 and PM10) using historical data, thereby providing valuable insights for policy-makers, researchers, and the general public to improve air quality management and public health outcomes.
 ## Dataset Description
@@ -58,5 +58,8 @@ Since we need to predict PM2.5 and PM10 from external environmental factors, our
 ![1 4](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/7629c9a6-de41-4405-94b0-32dadc04f8a9)
 ## Model Deployment
 To make our particulate matter (PM) prediction model accessible and user-friendly, we deployed our best-performing LSTM model on Streamlit Cloud. This deployment enables users to interact with the model in real-time, and gain insights through an intuitive web interface. Streamlit Cloud simplifies the process of sharing our advanced predictive capabilities with a broader audience, facilitating informed decision-making for air quality management.
+![Screenshot (88)](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/7b92ece1-d2ea-431b-a16b-6eccbede6d62)
+![Screenshot (87)](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/3c0ee67b-62c3-463d-9345-38c878651e47)
+
 
 
