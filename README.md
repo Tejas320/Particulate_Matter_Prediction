@@ -56,5 +56,7 @@ Since we need to predict PM2.5 and PM10 from external environmental factors, our
 ### LSTM prediction on test data
 ![1 3](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/d0999be0-2a0e-404d-b8df-7aec585c806e)
 ![1 4](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/7629c9a6-de41-4405-94b0-32dadc04f8a9)
+## Model Deployment
+To make our particulate matter (PM) prediction model accessible and user-friendly, we deployed our best-performing LSTM model on Streamlit Cloud. This deployment enables users to interact with the model in real-time, and gain insights through an intuitive web interface. Streamlit Cloud simplifies the process of sharing our advanced predictive capabilities with a broader audience, facilitating informed decision-making for air quality management.
 
 
