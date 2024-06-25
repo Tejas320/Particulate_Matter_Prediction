@@ -18,7 +18,7 @@ No. of columns = 11
 9. WD10M (Wind Direction at 10 meters)
 10. PM2.5
 11. PM10
-### Note. You can download the dataset `pm_prediction_dataset.csv` provided.
+### Note. You can download the dataset `pm_prediction_dataset.csv` provided above.
 
 ## Installation
 To run the code in this repository, you need to have Python (version 3.9.13 recommended) installed. You can install the required packages using:
@@ -27,7 +27,8 @@ To run the code in this repository, you need to have Python (version 3.9.13 reco
 pip install -r requirements.txt
 ```
 ## Exploratory Data Analysis
-For detailed EDA, ydata_profiling library has been used. ydata-profiling is a valuable tool for data scientists and analysts because it streamlines EDA, provides comprehensive insights, enhances data quality, and promotes data science best practices. You can refer 'profile.html' provided.
+For detailed EDA, ydata_profiling library has been used. ydata-profiling is a valuable tool for data scientists and analysts because it streamlines EDA, provides comprehensive insights, enhances data quality, and promotes data science best practices.
+### Note: You can refer `profile.html` provided above.
 
 ## Data Preprocessing
 1. Since the dataset contains separate values of YEAR, MO, DY and HR, we need to first create a new column 'Date' which contain the values of columns 'YEAR', 'MO', 'DY', 'HR' and convert it into datetime format.
