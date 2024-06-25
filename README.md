@@ -30,7 +30,7 @@ pip install -r requirements.txt
 3. Remove 'YEAR', 'MO', 'DY', 'HR' columns from the dataset to avoid redundancy.
 4. Remove the null values from the dataset.
 5. As our dataset contains hourly information of particulate matter data, we need to set frequency of our dataset as 'H'.
-### Note: Detailed code has been provided in `PM_prediction.ipynb`
+### Note: Detailed code has been provided in `PM_Prediction.ipynb`
 
 ## Models Trained
 Since we need to predict PM2.5 and PM10 from external environmental factors, our model should be a multi-label regression model. The models have been trained for predicting both PM2.5 and PM10 values. The dataset has been trained upon a number of models:
@@ -42,6 +42,8 @@ Since we need to predict PM2.5 and PM10 from external environmental factors, our
 6. FB Prophet
 ## Results
 ### From all the models mentioned above, our best performing model is LSTM.
-
+![1 1](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/a2102f4b-e5a5-4f6d-917d-7edfc8a2b022)
+![1 2](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/1a30d4c1-cc7a-43e3-b727-409e0a6545ac)
+#### Model having low MAE, MSE, RMSE values and high R2 value is considered the best model, i.e. LSTM
 
 
