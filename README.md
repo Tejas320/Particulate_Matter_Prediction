@@ -44,10 +44,13 @@ Since we need to predict PM2.5 and PM10 from external environmental factors, our
 6. FB Prophet
 ## Results
 ### From all the models mentioned above, our best performing model is LSTM.
+#### Results Table PM2.5
 ![1 1](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/a2102f4b-e5a5-4f6d-917d-7edfc8a2b022)
-Results Table of PM2.5
+#### Results Table PM10
 ![1 2](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/1a30d4c1-cc7a-43e3-b727-409e0a6545ac)
-Results Table of PM10
 #### Model having low MAE, MSE, RMSE values and high R2 value is considered the best model, i.e. LSTM
+### LSTM prediction on test data
+![1 3](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/d0999be0-2a0e-404d-b8df-7aec585c806e)
+![1 4](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/7629c9a6-de41-4405-94b0-32dadc04f8a9)
 
 
