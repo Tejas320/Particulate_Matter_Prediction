@@ -27,8 +27,11 @@ pip install -r requirements.txt
 ## Data Preprocessing
 1. Since the dataset contains separate values of YEAR, MO, DY and HR, we need to first create a new column 'Date' which contain the values of columns 'YEAR', 'MO', 'DY', 'HR' and convert it into datetime format.
 2. Set 'Date' column as index for the dataset.
-3. Remove the null values from the dataset.
-4. As our dataset contains hourly information of particulate matter data, we need to set frequency of our dataset as 'H'.
+3. Remove 'YEAR', 'MO', 'DY', 'HR' columns from the dataset to avoid redundancy.
+4. Remove the null values from the dataset.
+5. As our dataset contains hourly information of particulate matter data, we need to set frequency of our dataset as 'H'.
+### Note: Detailed code has been provided in `PM_prediction.ipynb`
+
 ## Models Trained
 Since we need to predict PM2.5 and PM10 from external environmental factors, our model should be a multi-label regression model. The models have been trained for predicting both PM2.5 and PM10 values. The dataset has been trained upon a number of models:
 1. Linear Regression
@@ -38,6 +41,7 @@ Since we need to predict PM2.5 and PM10 from external environmental factors, our
 5. LSTM (Long Short Term Memory)
 6. FB Prophet
 ## Results
+### From all the models mentioned above, our best performing model is LSTM.
 
 
 
