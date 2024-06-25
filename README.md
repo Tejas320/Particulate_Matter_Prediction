@@ -18,6 +18,8 @@ No. of columns = 11
 9. WD10M (Wind Direction at 10 meters)
 10. PM2.5
 11. PM10
+### Note. You can download the dataset `pm_prediction_dataset.csv` provided above.
+
 ## Installation
 To run the code in this repository, you need to have Python (version 3.9.13 recommended) installed. You can install the required packages using:
 
@@ -43,7 +45,9 @@ Since we need to predict PM2.5 and PM10 from external environmental factors, our
 ## Results
 ### From all the models mentioned above, our best performing model is LSTM.
 ![1 1](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/a2102f4b-e5a5-4f6d-917d-7edfc8a2b022)
+Results Table of PM2.5
 ![1 2](https://github.com/Tejas320/Particulate_Matter_Prediction/assets/73283098/1a30d4c1-cc7a-43e3-b727-409e0a6545ac)
+Results Table of PM10
 #### Model having low MAE, MSE, RMSE values and high R2 value is considered the best model, i.e. LSTM
 
 
