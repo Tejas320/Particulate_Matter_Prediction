@@ -1,6 +1,15 @@
 # Particulate Matter Prediction Using Time Series
 Link of Google Colab notebook: https://colab.research.google.com/drive/1Frnd2tQHLUbRwPdKpxXAe4X7NrJ7G5et?usp=sharing   
 Deployed the app in Streamlit Cloud: https://pm-prediction.streamlit.app/
+## Table of Contents
+1. [Problem Statement](#problem-statement)
+2. [Dataset Description](#dataset-description)
+3. [Installation](#installation)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Data Preprocessing](#data-preprocessing)
+6. [Models trained](#models-trained)
+7. [Results](#results)
+8. [Model Deployment](#model-deployment)
 ## Problem Statement
 Air pollution, specifically particulate matter (PM), poses significant health risks and environmental challenges. Predicting future PM levels can aid in mitigating these risks by enabling proactive measures. This project aims to develop a robust time series model to accurately forecast PM concentrations (PM2.5 and PM10) using historical data, thereby providing valuable insights for policy-makers, researchers, and the general public to improve air quality management and public health outcomes.
 ## Dataset Description
